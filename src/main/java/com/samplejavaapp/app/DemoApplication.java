@@ -12,11 +12,6 @@ import io.pyroscope.http.Format;
 public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
-    }
-
-    @PostConstruct
-    public void init() {
         PyroscopeAgent.start(
             new Config.Builder()
                 .setApplicationName("yunus-sample-app-java")
@@ -25,5 +20,8 @@ public class DemoApplication {
                 .setServerAddress("http://35.224.186.90:30334")
                 .build()
         );
+
+        SpringApplication.run(DemoApplication.class, args);
     }
+
 }
