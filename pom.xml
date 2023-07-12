@@ -37,5 +37,6 @@
 			</plugin>
 		</plugins>
 	</build>
+	<!-- <finalName>samplejavaapp</finalName> -->
 
 </project>
