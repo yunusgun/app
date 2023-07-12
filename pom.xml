@@ -47,6 +47,7 @@
 		<dependency>
 		<groupId>io.pyroscope</groupId>
 		<artifactId>agent</artifactId>
+		<version>pyroscope_version</version>
 		</dependency>
 
 	</dependencies>
