@@ -52,9 +52,9 @@
 		<dependency>
 		<groupId>io.pyroscope</groupId>
 		<artifactId>agent</artifactId>
-		<version>pyroscope_version</version>
+		<version>0.37.2</version>
 		</dependency>
-		
+
 	</dependencies>
 
 
