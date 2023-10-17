@@ -17,7 +17,7 @@ public class DemoApplication {
                 .setApplicationName("yunus-sample-app-java")
                 .setProfilingEvent(EventType.ITIMER)
                 .setFormat(Format.JFR)
-                .setServerAddress("http://35.224.186.90:30334")
+                .setServerAddress("http://pyroscope.bkmdevops.com")
                 .build()
         );
 
